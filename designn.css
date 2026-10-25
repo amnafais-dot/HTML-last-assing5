@@ -1,0 +1,127 @@
+
+ body {
+            font-family: Arial, sans-serif;
+            background-color: #fdf9f4;
+            color: #292521;
+            margin: 0;
+        }
+
+        header {
+            padding: 20px 5%;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav h2 {
+            font-size: 24px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #292521;
+            margin: 0 8px;
+        }
+
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 40px;
+            padding: 50px 5%;
+        }
+
+        .hero-text {
+            width: 50%;
+        }
+
+        .hero-text h1 {
+            font-size: 48px;
+            line-height: 1.2;
+        }
+
+        .hero-text p {
+            line-height: 1.8;
+            color: #6c625a;
+        }
+
+        .hero-image {
+            width: 45%;
+        }
+
+        .hero-image img {
+            width: 100%;
+            border-radius: 12px;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #292521;
+            color: white;
+            padding: 12px 20px;
+            text-decoration: none;
+            margin-top: 15px;
+        }
+
+        @media (max-width: 700px) {
+            nav {
+                flex-wrap: wrap;
+                gap: 10px;
+            }
+
+            nav a {
+                margin: 5px;
+            }
+
+            .hero {
+                flex-direction: column;
+            }
+
+            .hero-text,
+            .hero-image {
+                width: 100%;
+            }
+
+            .hero-text h1 {
+                font-size: 34px;
+            }
+        }
+       
+
+.about {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 40px;
+    background-color: beige;
+}
+
+.about-text {
+    width: 50%;
+}
+
+.about-text h2 {
+    font-size: 35px;
+    color: brown;
+}
+
+.about-text p {
+    font-size: 16px;
+}
+
+.about-image {
+    width: 50%;
+}
+
+.about-image img {
+    width: 100%;
+}
+.service-card{
+    background-color: antiquewhite;
+    font-size: medium;
+}
+         
+        
